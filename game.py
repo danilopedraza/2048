@@ -1,5 +1,5 @@
 from enum import IntEnum
-from random import randint
+from random import choices, randint
 
 def rot90(m, k=1):
     res = m + []
@@ -36,7 +36,7 @@ class GameOf2048:
             while res[x][y] != 0:
                 x, y = randint(0,3), randint(0,3)
             
-            res[x][y] = randint(1,2)
+            res[x][y] = choices([1,2],[9,1])
         
         return res
     
@@ -144,7 +144,7 @@ class GameOf2048:
             x, y = randint(0,3), randint(0,3)
             while res[x][y] != 0:
                 x, y = randint(0,3), randint(0,3)
-            res[x][y] = randint(1,2)
+            res[x][y] = choices([1,2],[9,1])
 
             # update everything
             self.lastBoard = self.currentBoard
@@ -155,46 +155,3 @@ class GameOf2048:
             return True
         else:
             return False
-
-board = GameOf2048()
-for i in board.currentBoard:
-    print(i)
-print()
-board.playMove(GameOf2048.Move.DOWN)
-for i in board.currentBoard:
-    print(i)
-print()
-
-'''
-# import the pygame module, so you can use it
-import pygame
-
-# define a main function
-def main():
-    
-    # initialize the pygame module
-    pygame.init()
-    pygame.display.set_caption("2048")
-    
-    # create a surface on screen that has the size of 240 x 180
-    screen = pygame.display.set_mode((400,400))
-    
-    # define a variable to control the main loop
-    running = True
-    
-    # main loop
-    while running:
-        # event handling, gets all event from the event queue
-        for event in pygame.event.get():
-            # only do something if the event is of type QUIT
-            if event.type == pygame.QUIT:
-                # change the value to False, to exit the main loop
-                running = False
-    
-    
-# run the main function only if this module is executed as the main script
-# (if you import this as a module then nothing is executed)
-if __name__=="__main__":
-    # call the main function
-    main()
-'''
