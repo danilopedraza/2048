@@ -162,4 +162,4 @@ class GameOf2048:
             else:
                 return pointsEarned
         else:
-            return pointsEarned
+            return pointsEarned # == 0
