@@ -36,7 +36,7 @@ class GameOf2048:
             while res[x][y] != 0:
                 x, y = randint(0,3), randint(0,3)
             
-            res[x][y] = choices([1,2],[9,1])[0]
+            res[x][y] = choices([2,4],[9,1])[0]
         
         return res
     
@@ -90,15 +90,13 @@ class GameOf2048:
             for j in range(3):
                 if board[i][j] == board[i][j+1] and board[i][j] != 0 and not merged:
                     # a possible merge was found
-                    board[i][j] += 1
+                    board[i][j] *= 2
                     board[i][j+1] = 0
-                    newPoints = 1 << board[i][j] # = 2**board[i][j]
 
-                    pointsEarned += newPoints
-                    self.points += newPoints
+                    pointsEarned += board[i][j]
                 elif merged:
                     # two cells merged and now we have to shift left the ones in the right
-                    board[i] = board[i][j+1]
+                    board[i][j] = board[i][j+1]
                 else:
                     # no past merge and no case for new merge, nothing to do
                     pass
@@ -129,6 +127,7 @@ class GameOf2048:
                     else: # board[i][j] != 0 and board[i][j+1] != 0
                         continue # nothing to do
         
+        self.points += pointsEarned
         return pointsEarned
         
     def playMove(self, dir):
