@@ -157,7 +157,7 @@ class GameOf2048:
             self.lost = self.verifyLoss()
 
             if pointsEarned == 0:
-                return 1 << res[x][y]
+                return res[x][y]
             else:
                 return pointsEarned
         else:

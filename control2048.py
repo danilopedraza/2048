@@ -79,7 +79,8 @@ class Control:
             [0,0,0,0],
         ]
 
-        for group in tileGroups:
+        for coord in tileGroups:
+            group = tileGroups[coord]
             if len(group) == 1:
                 tile = group[0]
                 x = int(tile['position']['x'])-1
@@ -91,8 +92,8 @@ class Control:
                         x = int(tile['position']['x'])-1
                         y = int(tile['position']['y'])-1
                         res[x][y] = int(tile['number'])
-                    else: # the others should have only one value
-                        raise ValueError('This should not happen')
+                    else:
+                        continue
 
         return res
     
@@ -110,13 +111,20 @@ class Control:
 
 
 if __name__ == '__main__':
-    mov = Control()
+    mov = Control(sleepTime=0.1)
     moves = [
         GameOf2048.Move.UP,
         GameOf2048.Move.DOWN,
         GameOf2048.Move.RIGHT,
         GameOf2048.Move.LEFT,
     ]
-    
-    for dir in moves:
-        mov.pressArrow(dir)
+    for _ in range(10):
+        for dir in moves:
+            for i in mov.currentGrid:
+                print(i)
+            print()
+            mov.pressArrow(dir)
+            mov.updateGrid()
+        for i in mov.currentGrid:
+            print(i)
+        print()
