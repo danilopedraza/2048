@@ -62,6 +62,7 @@ class GameOf2048:
             return True # no possble moves, game lost
 
     def transform(self, board):
+        pointsEarned = 0
         # shifts all non-zeros to the side
         for i in range(4):
             done = False
@@ -93,6 +94,7 @@ class GameOf2048:
                     board[i][j+1] = 0
                     newPoints = 1 << board[i][j] # = 2**board[i][j]
 
+                    pointsEarned += newPoints
                     self.points += newPoints
                 elif merged:
                     # two cells merged and now we have to shift left the ones in the right
@@ -127,6 +129,8 @@ class GameOf2048:
                     else: # board[i][j] != 0 and board[i][j+1] != 0
                         continue # nothing to do
         
+        return pointsEarned
+        
     def playMove(self, dir):
         assert type(dir) is self.Move
         if self.lost:
@@ -135,7 +139,7 @@ class GameOf2048:
         # get a new board with the new move
         res = rot90(self.currentBoard, k=int(dir))
 
-        self.transform(res)
+        pointsEarned = self.transform(res)
         
         res = rot90(res, k=(4-int(dir))%4)
         
@@ -152,7 +156,10 @@ class GameOf2048:
             self.currentBoard = res
             self.moves += 1
             self.lost = self.verifyLoss()
-                
-            return True
+
+            if pointsEarned == 0:
+                return 1 << res[x][y]
+            else:
+                return pointsEarned
         else:
-            return False
+            return pointsEarned
