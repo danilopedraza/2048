@@ -29,8 +29,10 @@ class Control:
         if self.verbose:
             print(movement)
         self.action.perform()
-mov = Control()
-mov.Up()
-mov.Down()
-mov.Right()
-mov.Left()
+
+if __name__ == '__main__':
+    mov = Control()
+    mov.Up()
+    mov.Down()
+    mov.Right()
+    mov.Left()
