@@ -14,7 +14,7 @@ class Control:
         self.verbose = verbose
 
         self.driver = webdriver.Firefox()
-        self.driver.get("https://2048game.com")
+        self.driver.get('https://2048game.com')
         
         self.action = ActionChains(self.driver)
 
@@ -81,6 +81,7 @@ class Control:
 
         for coord in tileGroups:
             group = tileGroups[coord]
+
             if len(group) == 1:
                 tile = group[0]
                 x = int(tile['position']['x'])-1
@@ -107,24 +108,3 @@ class Control:
                 )
         
         self.currentGrid = self.getGridFromTiles(tiles)
-
-
-
-if __name__ == '__main__':
-    mov = Control(sleepTime=0.1)
-    moves = [
-        GameOf2048.Move.UP,
-        GameOf2048.Move.DOWN,
-        GameOf2048.Move.RIGHT,
-        GameOf2048.Move.LEFT,
-    ]
-    for _ in range(10):
-        for dir in moves:
-            for i in mov.currentGrid:
-                print(i)
-            print()
-            mov.pressArrow(dir)
-            mov.updateGrid()
-        for i in mov.currentGrid:
-            print(i)
-        print()
