@@ -1,0 +1,533 @@
+1669601011505	geckodriver	INFO	Listening on 127.0.0.1:40845
+1669601011547	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37277" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenjPw6T"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669601012054	Marionette	INFO	Marionette enabled
+1669601012057	Marionette	INFO	Listening on port 39209
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:37277
+Read port: 39209
+1669601012248	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenjPw6T/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37277/devtools/browser/e53c1e8a-c833-4408-b76a-05d8cd8cceeb
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 183: TypeError: this._element is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.python.org."
+1669601014958	Marionette	INFO	Stopped listening on port 39209
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1669601318807	geckodriver	INFO	Listening on 127.0.0.1:60543
+1669601318844	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54941" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenKwKDZ"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669601319263	Marionette	INFO	Marionette enabled
+1669601319265	Marionette	INFO	Listening on port 41605
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:54941
+Read port: 41605
+1669601319429	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenKwKDZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54941/devtools/browser/be00d7da-ac44-4488-a545-0a7e5e81a98a
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669601326571	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 4370 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 3201 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://play2048.co/ line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 4694 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://resources-rt.idx.lat/T2.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-tTB93UFC5vepM&moatClientLevel2=qfm&moatClientLevel3=5a373d76-ba38-4a70-8e8b-8c9e2da358fe&moatClientLevel4=15a046a7-7ad7-4972-a819-7a7030d6504d&uid=TdlqJk2qGiYm2GovOMJsJD6udVRI3B47TdlsJE_bbC9P3msji-Hv3g==, line 239: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 6734 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669601424909	Marionette	INFO	Stopped listening on port 41605
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669601574340	geckodriver	INFO	Listening on 127.0.0.1:33911
+1669601574377	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43771" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIvAC2J"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669601574779	Marionette	INFO	Marionette enabled
+1669601574781	Marionette	INFO	Listening on port 43865
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:43771
+Read port: 43865
+1669601574950	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIvAC2J/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43771/devtools/browser/803daba3-a04a-41b5-a459-f00666176e5d
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669601583828	Marionette	INFO	Stopped listening on port 43865
+1669601613287	geckodriver	INFO	Listening on 127.0.0.1:56675
+1669601613327	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50057" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileszLfYJ"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669601613743	Marionette	INFO	Marionette enabled
+1669601613746	Marionette	INFO	Listening on port 33699
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:50057
+Read port: 33699
+1669601613911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileszLfYJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50057/devtools/browser/91babbd9-55d3-4770-baf9-f33ca0b887f2
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669601619705	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 3936 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 1902 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 7266 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 5668 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://resources-rt.idx.lat/T2.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 656 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 4509 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669601677654	Marionette	INFO	Stopped listening on port 33699
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669601683166	geckodriver	INFO	Listening on 127.0.0.1:46577
+1669601683204	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50489" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKQhAbK"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669601683622	Marionette	INFO	Marionette enabled
+1669601683625	Marionette	INFO	Listening on port 45373
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:50489
+Read port: 45373
+1669601683790	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKQhAbK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50489/devtools/browser/9f229409-82a3-4e72-9abe-86731ab7949c
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669601690008	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669601692732	Marionette	INFO	Stopped listening on port 45373
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669601718367	geckodriver	INFO	Listening on 127.0.0.1:57105
+1669601718404	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37719" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLhBwW1"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669601718817	Marionette	INFO	Marionette enabled
+1669601718819	Marionette	INFO	Listening on port 35057
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:37719
+Read port: 35057
+1669601718990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLhBwW1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37719/devtools/browser/123b5ef1-4a22-4d4a-bcd7-eb8cae907934
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669601725651	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 515 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 4438 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 3841 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 7132 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 2946 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 5027 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 244 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 2932 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 4071 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 7282 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 6427 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1669601750958	Marionette	INFO	Stopped listening on port 35057
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 38: TypeError: this.browsingContext.topChromeWindow is null
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 38: TypeError: this.browsingContext.topChromeWindow is null
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 38: TypeError: this.browsingContext.topChromeWindow is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669601761362	geckodriver	INFO	Listening on 127.0.0.1:37733
+1669601761401	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33497" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1O5hxO"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669601761809	Marionette	INFO	Marionette enabled
+1669601761812	Marionette	INFO	Listening on port 39123
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:33497
+Read port: 39123
+1669601761989	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1O5hxO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33497/devtools/browser/f7124a17-85f6-4f06-a4dc-ae6ad0209051
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669601772747	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 769 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 6155 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 7410 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 5942 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 2193 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 1453 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 7569 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 1155 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 3752 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 4240 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669601782457	Marionette	INFO	Stopped listening on port 39123
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669601903300	geckodriver	INFO	Listening on 127.0.0.1:43053
+1669601903341	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44503" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiletulA5p"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669601903743	Marionette	INFO	Marionette enabled
+1669601903746	Marionette	INFO	Listening on port 36633
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:44503
+Read port: 36633
+1669601903912	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletulA5p/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44503/devtools/browser/ec237e6f-29a6-4280-bdda-fb9927552a89
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669601909941	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 1609 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1669601923798	geckodriver	INFO	Listening on 127.0.0.1:37431
+1669601923837	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59759" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileH3yFll"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669601924246	Marionette	INFO	Marionette enabled
+1669601924248	Marionette	INFO	Listening on port 43715
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:59759
+Read port: 43715
+1669601924434	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileH3yFll/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59759/devtools/browser/bc4bd94b-0c50-4a8a-8a77-4e707de30fcd
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 3925 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 186 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 4507 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 3625 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669601939075	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 5626 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: moz-extension://5abf2863-c6d4-4e9a-9c88-71816681df21/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://resources-rt.idx.lat/T2.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-tTB93UFC5vepM&moatClientLevel2=qfm&moatClientLevel3=5a373d76-ba38-4a70-8e8b-8c9e2da358fe&moatClientLevel4=15a046a7-7ad7-4972-a819-7a7030d6504d&uid=sb3z1bOwhtPYsIKnzKiGoLPGn9y3wPPIx7SB0cTDgKazsYvUjI7qUg==, line 239: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 1
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 1
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 1
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 1
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 1
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 1
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 1
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 1
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 1
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 1
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 1
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 1
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 1
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.137438954016
+1669601995109	Marionette	INFO	Stopped listening on port 43715
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669602006221	geckodriver	INFO	Listening on 127.0.0.1:54979
+1669602006257	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36225" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileleXVc2"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669602006668	Marionette	INFO	Marionette enabled
+1669602006671	Marionette	INFO	Listening on port 37261
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:36225
+Read port: 37261
+1669602006835	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileleXVc2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36225/devtools/browser/0f3634fe-70b9-4160-900d-1a8f8d0ff56c
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669602012618	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669602019750	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 3204 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 7281 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 4243 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://go.ezodn.com/hb/dall.js?b=adpone,adtelligent,amx,brightcom,criteo,ix,medianet,oftmedia,onemobile,pubmatic,rubicon&cb=195-5-50, line 2: TypeError: g.error is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 162 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 1814 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://resources-rt.idx.lat/T2.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1669602068444	Marionette	INFO	Stopped listening on port 37261
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 38: TypeError: this.browsingContext.topChromeWindow is null
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 38: TypeError: this.browsingContext.topChromeWindow is null
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 38: TypeError: this.browsingContext.topChromeWindow is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669602087690	geckodriver	INFO	Listening on 127.0.0.1:45067
+1669602087727	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50079" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileoPYsRm"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669602088144	Marionette	INFO	Marionette enabled
+1669602088146	Marionette	INFO	Listening on port 45657
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:50079
+Read port: 45657
+1669602088310	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoPYsRm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50079/devtools/browser/9f12d86f-b744-4173-b5c9-0dbea2005552
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://static.cdnroute.io/lp/get-started/assets/scripts/vendor.js?1669370428245=&v=d564e0c, line 19: TypeError: i.replace is not a function
+1669602096987	Marionette	INFO	Stopped listening on port 45657
+1669602109501	geckodriver	INFO	Listening on 127.0.0.1:55631
+1669602109541	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56431" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileC4tDcO"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669602109951	Marionette	INFO	Marionette enabled
+1669602109953	Marionette	INFO	Listening on port 43181
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:56431
+Read port: 43181
+1669602110123	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileC4tDcO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56431/devtools/browser/bb29dad9-dcad-4bbc-9643-9b6796f1d6e7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 1930 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 6570 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://2048game.com/js/html_actuator_local.js, line 3: ReferenceError: twttr is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 6818 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 6585 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669602171937	Marionette	INFO	Stopped listening on port 43181
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669602202931	geckodriver	INFO	Listening on 127.0.0.1:54961
+1669602202974	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43205" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJaqQ5J"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669602203381	Marionette	INFO	Marionette enabled
+1669602203383	Marionette	INFO	Listening on port 34935
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:43205
+Read port: 34935
+1669602203557	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJaqQ5J/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43205/devtools/browser/430e96c2-ce2b-466b-857c-baefc7c6e201
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 3558 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 3229 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669602263888	geckodriver	INFO	Listening on 127.0.0.1:43861
+1669602263930	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35295" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerasCoP"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669602264370	Marionette	INFO	Marionette enabled
+1669602264373	Marionette	INFO	Listening on port 43177
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 43177
+WebDriver BiDi listening on ws://127.0.0.1:35295
+1669602264479	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerasCoP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35295/devtools/browser/5bd250c9-d922-4321-9a3c-2564d2b62417
+1669602266213	Marionette	INFO	Stopped listening on port 34935
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 100 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 1474 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669602284957	Marionette	INFO	Stopped listening on port 43177
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1669602321602	geckodriver	INFO	Listening on 127.0.0.1:60287
+1669602321641	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45485" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledS9Ojl"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669602322049	Marionette	INFO	Marionette enabled
+1669602322051	Marionette	INFO	Listening on port 41717
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:45485
+Read port: 41717
+1669602322219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledS9Ojl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45485/devtools/browser/43fdbbe2-78fd-47b0-b9f1-56739b54c644
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 1522 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 6679 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669602367913	geckodriver	INFO	Listening on 127.0.0.1:44253
+1669602367957	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41491" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOi7iuW"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669602368391	Marionette	INFO	Marionette enabled
+1669602368394	Marionette	INFO	Listening on port 37609
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 37609
+WebDriver BiDi listening on ws://127.0.0.1:41491
+1669602368494	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOi7iuW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41491/devtools/browser/d5c78b85-57ec-4a10-8f5a-1ea49d6651aa
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1669602385457	Marionette	INFO	Stopped listening on port 37609
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1669602395809	geckodriver	INFO	Listening on 127.0.0.1:53451
+1669602395859	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59605" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJDVLiT"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669602396307	Marionette	INFO	Marionette enabled
+1669602396310	Marionette	INFO	Listening on port 46541
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 46541
+WebDriver BiDi listening on ws://127.0.0.1:59605
+1669602396395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJDVLiT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59605/devtools/browser/da205029-7b12-4468-8120-98c52b6cf8f7
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
+1669602402373	Marionette	INFO	Stopped listening on port 41717
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669602489658	geckodriver	INFO	Listening on 127.0.0.1:40555
+1669602489698	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41825" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTwp0aS"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669602490124	Marionette	INFO	Marionette enabled
+1669602490126	Marionette	INFO	Listening on port 34805
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:41825
+Read port: 34805
+1669602490279	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTwp0aS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41825/devtools/browser/0d27f884-6536-49f0-a1f5-7365f1c86ac6
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 4581 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 2426 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669602497221	Marionette	INFO	Stopped listening on port 46541
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1669602519519	Marionette	INFO	Stopped listening on port 34805
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1669603151057	geckodriver	INFO	Listening on 127.0.0.1:44943
+1669603151097	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33495" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6HjfIo"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669603151522	Marionette	INFO	Marionette enabled
+1669603151524	Marionette	INFO	Listening on port 40451
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:33495
+Read port: 40451
+1669603151684	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6HjfIo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33495/devtools/browser/9a73a3cd-2df2-407f-bcb5-b9783a8ddd36
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 4137 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 4540 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669603217023	geckodriver	INFO	Listening on 127.0.0.1:51393
+1669603217068	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47017" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileL7towa"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669603217523	Marionette	INFO	Marionette enabled
+1669603217526	Marionette	INFO	Listening on port 44251
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 44251
+WebDriver BiDi listening on ws://127.0.0.1:47017
+1669603217611	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileL7towa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47017/devtools/browser/d248deac-5544-4d70-8e3b-41806756100e
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
+1669603220886	Marionette	INFO	Stopped listening on port 40451
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 7805 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 4866 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669603233350	Marionette	INFO	Stopped listening on port 44251
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1669603237290	geckodriver	INFO	Listening on 127.0.0.1:40265
+1669603237327	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46679" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKtK6YV"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669603237747	Marionette	INFO	Marionette enabled
+1669603237750	Marionette	INFO	Listening on port 45189
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:46679
+Read port: 45189
+1669603237925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKtK6YV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46679/devtools/browser/59873ff1-d36b-4685-b918-974810264396
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 306 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 4685 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669603262527	geckodriver	INFO	Listening on 127.0.0.1:35951
+1669603262567	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50183" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilei7sK0P"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669603263026	Marionette	INFO	Marionette enabled
+1669603263030	Marionette	INFO	Listening on port 46047
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 46047
+WebDriver BiDi listening on ws://127.0.0.1:50183
+1669603263134	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilei7sK0P/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50183/devtools/browser/d0c02ae3-b40c-4774-8c6d-7113f434c0e2
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 3863 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 3820 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669603270106	Marionette	INFO	Stopped listening on port 46047
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669603271301	Marionette	INFO	Stopped listening on port 45189
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
