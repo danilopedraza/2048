@@ -36,12 +36,12 @@ class GameOf2048:
             while res[x][y] != 0:
                 x, y = randint(0,3), randint(0,3)
             
-            res[x][y] = choices([1,2],[9,1])
+            res[x][y] = choices([1,2],[9,1])[0]
         
         return res
     
     def verifyLoss(self):
-        if 0 in sum(self.currentBoard, []):
+        if any(0 in row for row in self.currentBoard):
             # there are empty spaces, so we can move
             return False
         else:
@@ -91,8 +91,9 @@ class GameOf2048:
                     # a possible merge was found
                     board[i][j] += 1
                     board[i][j+1] = 0
+                    newPoints = 1 << board[i][j] # = 2**board[i][j]
 
-                    self.points += 2**board[i][j]
+                    self.points += newPoints
                 elif merged:
                     # two cells merged and now we have to shift left the ones in the right
                     board[i] = board[i][j+1]
@@ -125,7 +126,7 @@ class GameOf2048:
                         continue # nothing to do
                     else: # board[i][j] != 0 and board[i][j+1] != 0
                         continue # nothing to do
-    
+        
     def playMove(self, dir):
         assert type(dir) is self.Move
         if self.lost:
@@ -144,7 +145,7 @@ class GameOf2048:
             x, y = randint(0,3), randint(0,3)
             while res[x][y] != 0:
                 x, y = randint(0,3), randint(0,3)
-            res[x][y] = choices([1,2],[9,1])
+            res[x][y] = choices([1,2],[9,1])[0]
 
             # update everything
             self.lastBoard = self.currentBoard
