@@ -14,7 +14,7 @@ class Control:
         self.verbose = verbose
 
         self.driver = webdriver.Firefox()
-        self.driver.get('https://2048game.com')
+        self.driver.get('https://danilopedraza.github.io/2048-port/')
         
         self.action = ActionChains(self.driver)
 

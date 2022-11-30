@@ -55,7 +55,7 @@ class GameOf2048:
                 if down or right:
                     return False
             
-            return True # no possble moves, game lost
+            return True # no possible moves, game lost
     
     def shiftEverythingLeft(self, board):
         # shifts all non-zeros to the side
