@@ -29,7 +29,7 @@ class Control:
         self.tilesHTML = self.driver.find_element(
             By.CLASS_NAME,
             'tile-container'
-        )
+        ) # div with tiles
         self.updateGrid()
     
     def pressArrow(self, dir):
@@ -46,6 +46,9 @@ class Control:
 
     
     def parseTileClassName(self, classname):
+        # the info of a tile is in its div classname
+        # the names are of the form
+        # tile tile-[1-9][0-9]* tile-position-[1-4]-[1-4] (tile-new|tile-merged|)
         arr = classname.split(' ')
         number = arr[1].split('-')
         position = arr[2].split('-')
@@ -57,6 +60,7 @@ class Control:
         return {
             'number': number[1],
             'position': {
+                # inverted coordinates (xy-plane order to matrix order)
                 'x': position[3],
                 'y': position[2]
             },
@@ -64,6 +68,8 @@ class Control:
         }
 
     def getGridFromTiles(self, tiles):
+        # after a merge, the previous cells are still in the div
+        # this method takes care of that
         tileGroups = {}
         for tile in tiles:
             key = str(tile['position'])
