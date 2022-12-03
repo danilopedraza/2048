@@ -1,9 +1,13 @@
 from enum import IntEnum
+from gym import Env
+from gym.spaces import Box, Discrete
 import numpy as np
 from random import choices, randint
+import random
 
 
-class GameOf2048:
+
+class GameOf2048(Env):
     class Move(IntEnum):
         # number of move = number of left rotations to 'transform' it to a left move
         LEFT = 0
@@ -11,20 +15,30 @@ class GameOf2048:
         RIGHT = 2
         DOWN = 3
 
-    def __init__(self):
+    def __init__(self, seed=None):
+        if seed: # != None:
+            random.seed(seed)
+        else:
+            pass
+
         self.lost = False
         self.moves = 0
-        self.points = 0
-        self.lastBoard = None
         self.currentBoard = self.initialBoard()
-    
+
+        # attributes for the Env superclass
+        self.action_space = Discrete(4)
+        self.observation_space = Box(low=0 ,high=3, shape=(4,4), dtype=np.uint32)
+        self.reward_range = (0, np.inf)
+
+
+    # helper functtions for game logic
     def initialBoard(self):
         res = np.asarray([
             [0,0,0,0],
             [0,0,0,0],
             [0,0,0,0],
             [0,0,0,0]
-        ])
+        ], dtype=np.uint32)
         
         
         for _ in range(2):
@@ -45,7 +59,7 @@ class GameOf2048:
             for i in range(3):
                 for j in range(3):
                     down = self.currentBoard[i,j] == self.currentBoard[i+1,j]
-                    right = self.currentBoard[i,j] == self.currentBoard[i,j+1] 
+                    right = self.currentBoard[i,j] == self.currentBoard[i,j+1]
                     if down or right:
                         return False
             
@@ -72,7 +86,6 @@ class GameOf2048:
                 else:
                     continue
 
-        
     def transform(self, board):
         pointsEarned = 0
 
@@ -102,20 +115,19 @@ class GameOf2048:
 
         self.shiftEverythingLeft(board)
         
-        self.points += pointsEarned
         return pointsEarned
-        
-    def playMove(self, dir):
-        assert type(dir) is self.Move
-        if self.lost:
-            return False
-        
+    
+
+
+    # functions for the Env superclass
+    def step(self, dir):
         # get a new board with the new move
-        res = np.rot90(np.copy(self.currentBoard), k=int(dir))
+        # dir is an int
+        res = np.rot90(np.copy(self.currentBoard), k=dir)
 
         pointsEarned = self.transform(res)
         
-        res = np.rot90(res, k=(4-int(dir))%4)
+        res = np.rot90(res, k=(4-dir)%4)
 
         # add a new positive cell
         if not np.array_equal(res, self.currentBoard):
@@ -125,15 +137,29 @@ class GameOf2048:
                 x, y = randint(0,3), randint(0,3)
             res[x,y] = choices([2,4],[9,1])[0]
 
-            # update everything
-            self.lastBoard = self.currentBoard
             self.currentBoard = res
             self.moves += 1
             self.lost = self.verifyLoss()
-
-            if pointsEarned == 0:
-                return res[x,y]
-            else:
-                return pointsEarned
         else:
-            return pointsEarned # == 0
+            pass # nothing to update, no tile to add
+        
+        return (
+            self.currentBoard, # the new board (if changed)
+            np.float(pointsEarned), # points earned (can be zero)
+            self.lost, # the game ended?
+            False, # the game was truncated (limit of steps)?
+            {} # information of the step
+        )
+    
+    def reset(self):
+        self.lost = False
+        self.moves = 0
+        self.currentBoard = self.initialBoard()
+
+        return (
+            self.currentBoard,
+            {} # for information
+        )
+    
+    def render(self):
+        pass
