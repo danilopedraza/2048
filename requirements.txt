@@ -1,2 +1,6 @@
 selenium >= 4.6.1
 gym
+tensorflow
+keras
+keras-rl2
+
