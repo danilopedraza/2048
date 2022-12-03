@@ -1,6 +1,3 @@
-selenium >= 4.6.1
 gym
+selenium >= 4.6.1
 tensorflow
-keras
-keras-rl2
-

@@ -31,7 +31,7 @@ class GameOf2048(Env):
         self.reward_range = (0, np.inf)
 
 
-    # helper functtions for game logic
+    # helper functions for game logic
     def initialBoard(self):
         res = np.asarray([
             [0,0,0,0],
@@ -40,7 +40,7 @@ class GameOf2048(Env):
             [0,0,0,0]
         ], dtype=np.uint32)
         
-        
+        # put two random tiles
         for _ in range(2):
             x, y = randint(0,3), randint(0,3)
             while res[x,y] != 0:
