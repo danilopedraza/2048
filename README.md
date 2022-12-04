@@ -6,12 +6,12 @@ Dos agentes para jugar 2048: uno por redes neuronales y otro por búsqueda.
 
 [Enlace](https://drive.google.com/file/d/1DpzeHh1ZppcuF1cikAvicy4wOL5b7JQf/view?usp=sharing&authuser=1)
 
-### Requisitos
+## Requisitos
 
 [Jupyter Notebook](https://jupyter.org/install)
 Mozilla Firefox (para prueba del agente en vivo)
 
-### ¿Cómo ejecutar?
+## ¿Cómo ejecutar?
 
 1. Clonar el repositorio
 ```
