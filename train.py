@@ -151,13 +151,14 @@ class GameOf2048(Env):
             _, points = self.transform(self.currentBoard, i)
             if points > maxPoints:
                 maxPoints = points
+            #check mac point that can be achieve with the currect board
 
         
         res, pointsEarned = self.transform(self.currentBoard, dir)
 
         if pointsEarned < maxPoints:
             pointsEarned = -30
-            pass
+            #set penalty for choosing the direction that does not give max points
 
         #print(res)
         #print("-------------------")
@@ -176,6 +177,13 @@ class GameOf2048(Env):
         else:
             self.moves += 1
             pointsEarned -=20
+            #set penalty for choosing the direction that does not do anything, i.e,
+            #rigth move
+            # 2 0 0 0
+            # 2 0 0 0
+            # 0 0 0 0
+            # 0 0 0 0
+            
         if self.moves >= 300:
             return  self.currentBoard, np.float(pointsEarned), True, {}
         
@@ -185,8 +193,9 @@ class GameOf2048(Env):
         self.lost = False
         self.moves = 0
         self.currentBoard = self.initialBoard()
-
+        #reset to initial board
         return self.currentBoard
     
     def render(self, mode):
+        #print current table
         print(self.currentBoard)
