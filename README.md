@@ -6,10 +6,6 @@ Dos agentes para jugar 2048: uno por redes neuronales y otro por búsqueda.
 
 [Enlace](https://drive.google.com/file/d/1DpzeHh1ZppcuF1cikAvicy4wOL5b7JQf/view?usp=sharing&authuser=1)
 
-## Vídeo
-
-[Enlace](https://youtu.be/_Ia57AQ7RSA)
-
 ### Requisitos
 
 [Jupyter Notebook](https://jupyter.org/install)
