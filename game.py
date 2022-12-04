@@ -1,6 +1,7 @@
 from enum import IntEnum
 from gym import Env
 from gym.spaces import Box, Discrete
+from itertools import product
 import numpy as np
 from random import choices, randint
 import random
@@ -29,6 +30,18 @@ class GameOf2048(Env):
         self.action_space = Discrete(4)
         self.observation_space = Box(low=0 ,high=3, shape=(4,4), dtype=np.uint32)
         self.reward_range = (0, np.inf)
+    
+    
+
+
+    def availableTiles(self, board):
+        for x,y in product(range(4), range(4)):
+            if board[x,y] == 0:
+                yield (x,y)
+    
+    def getRandomEmptyTile(self, board):
+        available = [coord for coord in self.availableTiles(board)]
+        return available[randint(0, len(available)-1)]
 
 
     # helper functions for game logic
@@ -42,34 +55,34 @@ class GameOf2048(Env):
         
         # put two random tiles
         for _ in range(2):
-            x, y = randint(0,3), randint(0,3)
-            while res[x,y] != 0:
-                x, y = randint(0,3), randint(0,3)
-            
+            x, y = self.getRandomEmptyTile(res)
             res[x,y] = choices([2,4],[9,1])[0]
         
         return res
     
-    def verifyLoss(self):
-        if 0 in self.currentBoard:
+    def verifyLoss(self, board):
+        # we return ints to find loss probabilites
+
+
+        if 0 in board:
             # there are empty spaces, so we can move
-            return False
+            return 0
         else:
             # check for all possible moves
             for i in range(3):
                 for j in range(3):
-                    down = self.currentBoard[i,j] == self.currentBoard[i+1,j]
-                    right = self.currentBoard[i,j] == self.currentBoard[i,j+1]
-                    if down or right:
-                        return False
+                    down  = board[i,j] == board[i+1,j]
+                    right = board[i,j] == board[i,j+1]
+                    if down or right: # the tiles can be merged
+                        return 0
             
             for i in range(3):
-                down  = self.currentBoard[i,3] == self.currentBoard[i+1,3]
-                right = self.currentBoard[3,i] == self.currentBoard[3,i+1]
+                down  = board[i,3] == board[i+1,3]
+                right = board[3,i] == board[3,i+1]
                 if down or right:
-                    return False
+                    return 0
             
-            return True # no possible moves, game lost
+            return 1 # no possible moves, game lost
     
     def shiftEverythingLeft(self, board):
         # shifts all non-zeros to the side
@@ -86,24 +99,27 @@ class GameOf2048(Env):
                 else:
                     continue
 
-    def transform(self, board):
+    def transform(self, board, dir):
+        # makes the move without adding the possible new random tile
         pointsEarned = 0
 
+        res = np.rot90(np.copy(board), k=dir)
         self.shiftEverythingLeft(board)
+        
 
         # makes a merge
         for i in range(4):
             merged = False
             for j in range(3):
-                if board[i,j] == board[i,j+1] and board[i,j] != 0 and not merged:
+                if res[i,j] == res[i,j+1] and res[i,j] != 0 and not merged:
                     # a possible merge was found
-                    board[i,j] *= 2
-                    board[i,j+1] = 0
+                    res[i,j] *= 2
+                    res[i,j+1] = 0
 
-                    pointsEarned += board[i,j]
+                    pointsEarned += res[i,j]
                 elif merged:
                     # two cells merged and now we have to shift left the ones in the right
-                    board[i,j] = board[i,j+1]
+                    res[i,j] = res[i,j+1]
                 else:
                     # no past merge and no case for new merge, nothing to do
                     pass
@@ -111,11 +127,12 @@ class GameOf2048(Env):
             if merged:
                 # since the only possible cell without a value is the last,
                 # we put it to zero in any case of merge
-                board[i,3] = 0
+                res[i,3] = 0
 
-        self.shiftEverythingLeft(board)
+        self.shiftEverythingLeft(res)
+        res = np.rot90(res, k=(4-dir)%4)
         
-        return pointsEarned
+        return res, pointsEarned
     
 
 
@@ -123,23 +140,19 @@ class GameOf2048(Env):
     def step(self, dir):
         # get a new board with the new move
         # dir is an int
-        res = np.rot90(np.copy(self.currentBoard), k=dir)
-
-        pointsEarned = self.transform(res)
         
-        res = np.rot90(res, k=(4-dir)%4)
+        res, pointsEarned = self.transform(self.currentBoard, dir)
+        
 
         # add a new positive cell
         if not np.array_equal(res, self.currentBoard):
             # we moved the board, so there is always a zero cell
-            x, y = randint(0,3), randint(0,3)
-            while res[x,y] != 0:
-                x, y = randint(0,3), randint(0,3)
+            x, y = self.getRandomEmptyTile(res)
             res[x,y] = choices([2,4],[9,1])[0]
 
             self.currentBoard = res
             self.moves += 1
-            self.lost = self.verifyLoss()
+            self.lost = self.verifyLoss(self.currentBoard)
         else:
             pass # nothing to update, no tile to add
         

@@ -1,5 +1,7 @@
 from game import GameOf2048
 
+import numpy as np
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -25,23 +27,34 @@ class Control:
             GameOf2048.Move.DOWN : (Keys.ARROW_DOWN , 'Down' ),
         }
 
+        self.dirs = [
+            (Keys.ARROW_LEFT , 'Left' ),
+            (Keys.ARROW_UP   , 'Up'   ),
+            (Keys.ARROW_RIGHT, 'Right'),
+            (Keys.ARROW_DOWN , 'Down' ),
+        ]
+
         time.sleep(1) # wait for the page to load
         self.tilesHTML = self.driver.find_element(
             By.CLASS_NAME,
             'tile-container'
         ) # div with tiles
         self.updateGrid()
+
+        # self.currentGrid gets initialized in self.updateGrid()
     
     def pressArrow(self, dir):
-        assert type(dir) is GameOf2048.Move
+        # assert type(dir) is GameOf2048.Move
 
         time.sleep(self.sleepTime)
         self.action.send_keys(self.dirs[dir][0])
         self.__perform(self.dirs[dir][1])
+        self.updateGrid()
     
     def __perform(self, movement):
         if self.verbose:
             print(movement)
+            print(self.currentGrid)
         self.action.perform()
 
     
@@ -106,11 +119,11 @@ class Control:
     
 
     def updateGrid(self):
-        time.sleep(0.1) # make sure the page updates the DOM after playing
+        time.sleep(0.2) # make sure the page updates the DOM after playing
         children = self.tilesHTML.find_elements(By.TAG_NAME, 'div')
         tiles = (self.parseTileClassName(element.get_attribute('class'))
                     for element in children
                     if element.get_attribute('class') != 'tile-inner'
                 )
         
-        self.currentGrid = self.getGridFromTiles(tiles)
+        self.currentGrid = np.asarray(self.getGridFromTiles(tiles))
