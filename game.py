@@ -5,6 +5,7 @@ from itertools import product
 import numpy as np
 from random import choices, randint
 import random
+import torch
 
 
 
@@ -28,7 +29,7 @@ class GameOf2048(Env):
 
         # attributes for the Env superclass
         self.action_space = Discrete(4)
-        self.observation_space = Box(low=0 ,high=3, shape=(4,4), dtype=np.uint32)
+        self.observation_space = Box(low=0 ,high=3, shape=(4,4), dtype=np.int32)
         self.reward_range = (0, np.inf)
     
     
@@ -51,7 +52,7 @@ class GameOf2048(Env):
             [0,0,0,0],
             [0,0,0,0],
             [0,0,0,0]
-        ], dtype=np.uint32)
+        ], dtype=np.int32)
         
         # put two random tiles
         for _ in range(2):
@@ -140,6 +141,14 @@ class GameOf2048(Env):
     def step(self, dir):
         # get a new board with the new move
         # dir is an int
+<<<<<<< HEAD
+=======
+        print(self.currentBoard, dir)
+        res = np.rot90(np.copy(self.currentBoard), k=dir)
+        print(res)
+        pointsEarned = self.transform(res)
+        print(res)
+>>>>>>> 6aff4a8 (agent 1{)
         
         res, pointsEarned = self.transform(self.currentBoard, dir)
         
@@ -154,25 +163,19 @@ class GameOf2048(Env):
             self.moves += 1
             self.lost = self.verifyLoss(self.currentBoard)
         else:
+            self.moves += 1
             pass # nothing to update, no tile to add
+        if self.moves >= 10000:
+            return  self.currentBoard, np.float(pointsEarned), True, {}
         
-        return (
-            self.currentBoard, # the new board (if changed)
-            np.float(pointsEarned), # points earned (can be zero)
-            self.lost, # the game ended?
-            False, # the game was truncated (limit of steps)?
-            {} # information of the step
-        )
+        return  self.currentBoard, np.float(pointsEarned),  self.lost, {}
     
     def reset(self):
         self.lost = False
         self.moves = 0
         self.currentBoard = self.initialBoard()
 
-        return (
-            self.currentBoard,
-            {} # for information
-        )
+        return self.currentBoard
     
-    def render(self):
-        pass
+    def render(self, mode):
+        print(self.currentBoard)
