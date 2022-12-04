@@ -104,7 +104,7 @@ class GameOf2048(Env):
         pointsEarned = 0
 
         res = np.rot90(np.copy(board), k=dir)
-        self.shiftEverythingLeft(board)
+        self.shiftEverythingLeft(res)
         
 
         # makes a merge
