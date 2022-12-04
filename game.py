@@ -141,14 +141,6 @@ class GameOf2048(Env):
     def step(self, dir):
         # get a new board with the new move
         # dir is an int
-<<<<<<< HEAD
-=======
-        print(self.currentBoard, dir)
-        res = np.rot90(np.copy(self.currentBoard), k=dir)
-        print(res)
-        pointsEarned = self.transform(res)
-        print(res)
->>>>>>> 6aff4a8 (agent 1{)
         
         res, pointsEarned = self.transform(self.currentBoard, dir)
         
