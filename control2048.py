@@ -119,7 +119,7 @@ class Control:
     
 
     def updateGrid(self):
-        time.sleep(0.2) # make sure the page updates the DOM after playing
+        time.sleep(0.5) # make sure the page updates the DOM after playing
         children = self.tilesHTML.find_elements(By.TAG_NAME, 'div')
         tiles = (self.parseTileClassName(element.get_attribute('class'))
                     for element in children
